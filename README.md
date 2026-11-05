@@ -7,7 +7,7 @@ A curated collection of prompts, techniques, and API notes for **ChatGPT Images 
 
 Whether you are building an image app, upgrading a `gpt-image-2.5` integration, or looking for prompts that make the most of GIFs and markup edits, you will find practical patterns here.
 
-> **Want GPT Image models without an OpenAI account?** **[MuAPI](https://muapi.ai)** hosts them behind one REST API and one key. The GPT Image 2.6 landing page is live at [muapi.ai/gpt-image-2.6](https://muapi.ai/gpt-image-2.6) (**coming soon** — Muapi endpoints for 2.6 are not live yet). [GPT Image 2.5 Flare and Sunburst](https://muapi.ai/gpt-image-2.5) are available on Muapi today. [Get your API key →](https://muapi.ai)
+> **Want GPT Image models without an OpenAI account?** **[MuAPI](https://muapi.ai)** hosts them behind one REST API and one key. GPT Image 2.6 Flare and Sunburst (text-to-image and image editing, up to 4K, animated GIF output) are available at [muapi.ai/gpt-image-2.6](https://muapi.ai/gpt-image-2.6), and [GPT Image 2.5 Flare and Sunburst](https://muapi.ai/gpt-image-2.5) remain available too. [Get your API key →](https://muapi.ai)
 
 > **API usage:** Prompts below are written for the [OpenAI Images API](https://developers.openai.com/api/docs/guides/image-generation) using `gpt-image-2.6-flare` / `gpt-image-2.6-sunburst`, and most also work in ChatGPT Images 2.6. Check OpenAI's docs for the exact parameter names and values before shipping; they are quoted here from the launch post and image-generation guide as of 2026-11-05.
 
@@ -28,7 +28,7 @@ response = client.images.generate(
 
 ## Related Projects
 
-- [MuAPI GPT Image 2.6 landing page](https://muapi.ai/gpt-image-2.6) — Coming soon: hosted API access to Flare and Sunburst.
+- [MuAPI GPT Image 2.6 landing page](https://muapi.ai/gpt-image-2.6) — Flare and Sunburst live on Muapi (text-to-image and image editing, up to 4K, GIF output, from $0.06/image).
 - [MuAPI GPT Image 2.5 API](https://muapi.ai/gpt-image-2.5) — Flare and Sunburst 2.5 live on Muapi today.
 - [MuAPI API reference](https://muapi.ai/docs/api-reference) — Endpoint and prediction lifecycle documentation.
 - [Awesome-GPT-Image-2.5-API-Prompts](https://github.com/Anil-matcha/Awesome-GPT-Image-2.5-API-Prompts) — The prior-generation prompt collection this repo builds on.
